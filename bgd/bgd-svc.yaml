@@ -4,13 +4,13 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: bgd
-  name: bgd
+    app: bgdd
+  name: bgdd
 spec:
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
-    app: bgd
+    app: bgdd
 ---
