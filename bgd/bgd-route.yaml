@@ -3,15 +3,15 @@ kind: Route
 metadata:
   creationTimestamp: null
   labels:
-    app: bgdd
-  name: bgdd
-  namespace: bgdd
+    app: bgd
+  name: bgd
+  namespace: bgd
 spec:
   host: ""
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: bgdd
+    name: bgd
     weight: 100
 status: {}
