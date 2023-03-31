@@ -5,7 +5,7 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: bgd
+  namespace: user1-todo
 spec:
   host: ""
   port:
