@@ -5,7 +5,7 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: user1-todo
+  namespace: user1-bgdk
 spec:
   host: rectangle.apps.cluster-wspf8.wspf8.sandbox961.opentlc.com
   port:
